@@ -6,3 +6,6 @@ The first cell in the notebook file installs the necessary modules/libraries, ru
 The notebook will load the training and public test data then examines the class distribution. Based on this it splits the training data into training and validation sets and converts reviews into text features.
 
 Next comes the training of the logistic regression classifier, using balanced class weights to account for the imbalance within the given training set, the classifier uses L2 regularization to reduce the overfitting that would commonly occur with smaller training sets. Afterwards, it will evaluate the classifier on the public test data and creates a confusion matrix as well as calculating accuracy. Once trained the model is saved to the model_checkpoint folder and the public_test_predictions.csv file is created.
+
+
+(apologies for some formatting issues, this was my first time creating a github repository for an assignment)
