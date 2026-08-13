@@ -1,4 +1,4 @@
-# CYSE-499-sentiment-classifier-step-1
+# CYSE-499-sentiment-classifier-step-1+2
 Step 1 for the movie sentiment classifer assignment
 
 The first cell in the notebook file installs the necessary modules/libraries, running this installs numpy, joblib, scikit-learn, pandas, and matplotlib, once this cell is ran, restart the notebook kernel.
